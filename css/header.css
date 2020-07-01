@@ -1,0 +1,42 @@
+body{
+				margin: 0;
+				padding: 0;
+			} 
+			.c{
+				width: 165px;height: 50px;
+			}
+			.ff{
+				display: flex;
+				justify-content: center;
+			}
+			@media (min-width:0px) and (max-width:991px) {
+				#shouye{
+					position: relative;
+					
+					}
+					#d1{
+						background-color: #000;
+						width: 100%;
+						position: absolute;
+						top: 57px;
+						left: 0px;
+						z-index: 100;
+					}
+					#shouye{
+						background-color:#FF0000!important;
+					}
+					#d1>ul>li:hover{
+						background-color: #ff0000;
+					}
+			}
+			@media (min-width:992px) {
+				#shouye>a{color: #FF6000;}
+				.header_1,#d1>ul{
+					font-size: 12px;
+				}
+				.header_1,#d1>ul>li>a:hover{
+					color: #FF6000;
+				}
+				
+			}
+			

@@ -1,0 +1,90 @@
+
+/* 轮播图 */
+      .carousel-indicators li{
+                
+                
+                background-color: #fff;
+            }
+            .carousel-indicators .active {
+                background-color: orange;
+
+            }
+
+            .carousel-control-prev,.carousel-control-next{
+                width: 4%;height: 20%;
+                background-color: #000;
+                border-radius: 0.25rem;
+                top: 40%;
+            }
+/* 内容一 */	
+		.font_w1,.font_w5{
+			font-family: 微软雅黑;
+			color: #3e3e3e;
+			line-height: 2em;
+		}
+		@media (min-width:0px) and (max-width:991.99px) {
+			.font_w1{font-size: 24px;}
+			.font_w5{font-size: 26px;}
+			#footer_sm{display: inline-block;}
+			#footer_lg{display:none ;}
+		}
+		@media (min-width:992px) {
+			.font_w1{font-size: 36px;}
+			.font_w5{font-size: 40px;}
+			#footer_sm{display: none;}
+			#footer_lg{display: inline-block;}
+		}
+		.font_w2{
+			font-size: 14px!important;
+			font-family: 微软雅黑体;
+			color: #808080;
+			line-height: 1.5em;
+		}
+/* 内容二 */
+        .font_w3{
+			font-family: 宋体;
+			font-size: 16px;
+			color: #ff6000;
+			line-height: 1.5em;	
+		}
+		.font_w4{
+			    font-size: 13px!important;
+				font-size: 13px!important;
+				line-height: 1.5em;	
+				font-size: 16px;
+		}
+		.font_w6{
+			font-family: century gothic;
+			font-weight: normal;
+			font-family: 微软雅黑;
+			font-size: 18px;
+			vertical-align: bottom;
+			color: #FF6000;	
+		}
+		.font_w7{
+			font-family: century gothic;
+			font-weight: normal;
+			font-family: 微软雅黑;
+			font-size: 12px;
+			vertical-align: bottom;
+			color: #FF6000;	
+		}
+		.font_w8{
+			    font-size: 14px;
+				line-height: 1.5em;
+				color: #808080;			 
+		}
+		
+		.font_w9{
+			    color: #c9c9c9;
+			    line-height: 14px;
+			    font-size: 12px
+		}
+		#index_1>ul>li>a{
+			text-decoration: none;
+		}
+		#index_1>ul>li>a:hover span{
+			color: red;
+		}
+		
+
